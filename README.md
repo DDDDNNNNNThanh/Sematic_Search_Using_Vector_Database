@@ -16,7 +16,6 @@ cd SemanticSearch
 ```
 2. Install the required dependencies:
 ```
-sh
 conda env create -f environment.yml
 ```
 3. Run Docker-compose up for elasticsearch
