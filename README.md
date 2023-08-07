@@ -12,7 +12,7 @@ To run the Semantic Search project locally, follow these steps:
 ```sh
 gh repo clone deepanshululla/SemanticSearch
 cd SemanticSearch
-
+```
 2. Install the required dependencies:
 conda env create -f environment.yml
 
