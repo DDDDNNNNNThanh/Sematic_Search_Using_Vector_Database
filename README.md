@@ -9,20 +9,27 @@ To run the Semantic Search project locally, follow these steps:
 
 1. Clone the repository:
 
-```sh
+```
+sh
 gh repo clone deepanshululla/SemanticSearch
 cd SemanticSearch
 ```
 2. Install the required dependencies:
+```
+sh
 conda env create -f environment.yml
-
+```
 3. Run Docker-compose up for elasticsearch
+```
+sh
 docker-compose up -d
-
+```
 4. Create a file called openai in the secrets folder:
+```
+sh
 ❯ ls secret
 openai
-
+```
 5. Paste your OpenAI key into the openai file.
 
 6. You may also need to setup kaggle key and download the dataset from Kaggle.
